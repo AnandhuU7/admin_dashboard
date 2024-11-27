@@ -26,14 +26,13 @@ Before you start, you need to have **Node.js** (which comes with **npm**) instal
      - For **macOS**: Download the `.pkg` installer and run it.
      - For **Linux** (Ubuntu/Debian-based):
        ```bash
-       curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
-       sudo apt-get install -y nodejs
+    curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+    sudo apt-get install -y nodejs
        ```
 
 2. **Verify Installation**:
    After installation, open a terminal or command prompt and run the following commands to verify the installation:
    
-   ```bash
    node -v
    npm -v
 
@@ -50,12 +49,11 @@ Before you start, you need to have **Node.js** (which comes with **npm**) instal
 
     The app will be available at http://localhost:3000
 
-
-## FolderStructure
-/admin
+## Folder Structure
+    /admin
 │
 ├── node_modules/               # Contains all project dependencies
-├── public/                     # Public assets like index.html, icons, etc.
+├── public/                     # Public assets like index.html,icons
 ├── src/                        # Source code for the React app
 │   ├── assets/                 # Static assets like images and icons
 │   ├── components/             # Reusable UI components
@@ -66,7 +64,7 @@ Before you start, you need to have **Node.js** (which comes with **npm**) instal
 │   │   ├── Header.js           # Header component for navigation
 │   │   ├── SearchButton.js     # Button component for searching
 │   │   └── Sidebar.js          # Sidebar component for navigation
-│   ├── pages/                  # React components for individual pages
+│   ├── pages                 # React components for individual pages
 │   │   └── AdminPanelPage.js   # Admin panel main page
 │   ├── styles/                 # Contains styles for components
 │   ├── api.js                  # API calls for backend interaction
@@ -74,6 +72,10 @@ Before you start, you need to have **Node.js** (which comes with **npm**) instal
 │   └── others/                 # Other utility files (if any)
 ├── package-lock.json           # Lock file for npm
 └── package.json                # Project metadata and dependencies
+
+
+
+
 
 ## Explanation
 
