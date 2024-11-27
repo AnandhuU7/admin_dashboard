@@ -48,6 +48,13 @@ Before you start, you need to have **Node.js** (which comes with **npm**) instal
     npm start
 
     The app will be available at http://localhost:3000
+###Structure
+├───public
+└───src
+    ├───assets
+    ├───components
+    ├───pages
+    └───styles
 
 
 ## Explanation
