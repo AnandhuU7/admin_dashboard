@@ -98,17 +98,17 @@ Stores images, icons, and other static files used across the app.
 ## components/: 
 Reusable UI components used throughout the app. Each component is a modular unit of functionality and display. Key components include:
 
-        AddNew.js: A button component for triggering the addition of new entries.
-        CreateUser.js: A form component used for creating new user entries.
-        DeleteModal.js: A modal dialog that confirms the deletion of an item.
-        EditModal.js: A modal dialog used for editing existing data (e.g., user details).
-        Header.js: The header section of the app, typically containing navigation and logos.
-        SearchButton.js: A button component to trigger the search functionality.
-        Sidebar.js: A sidebar navigation component, typically used for admin panels.
+    AddNew.js: A button component for triggering the addition of new entries.
+    CreateUser.js: A form component used for creating new user entries.
+    DeleteModal.js: A modal dialog that confirms the deletion of an item.
+    EditModal.js: A modal dialog used for editing existing data (e.g., user details).
+    Header.js: The header section of the app, typically containing navigation and logos.
+    SearchButton.js: A button component to trigger the search functionality.
+    Sidebar.js: A sidebar navigation component, typically used for admin panels.
 ## pages/:
  Contains the pages for your application. Each page represents a distinct view or route within the app.
 
-    AdminPanelPage.js: The main page of the admin panel, typically containing user management, settings, and other admin features.
+AdminPanelPage.js: The main page of the admin panel, typically containing user management, settings, and other admin features.
 ## styles/:
 Contains the CSS or SCSS files for styling the components. This includes global styles as well as component-specific styles.
 
@@ -125,4 +125,4 @@ Lists all the dependencies, scripts, and metadata for the project. It defines wh
 This file ensures that the exact versions of dependencies are installed across different environments. It locks down the version of each installed package to prevent inconsistencies between different developers' environments.
 
 ## Admin Dashboard Project
-    This project is an Admin Dashboard application where an admin can manage users, assign roles, and handle user permissions. The system allows the admin to perform actions such as viewing, editing, deleting users, and assigning roles to users. Additionally, the admin can define and modify roles and permissions, providing fine-grained control over user access and actions within the application.
+This project is an Admin Dashboard application where an admin can manage users, assign roles, and handle user permissions. The system allows the admin to perform actions such as viewing, editing, deleting users, and assigning roles to users. Additionally, the admin can define and modify roles and permissions, providing fine-grained control over user access and actions within the application.
