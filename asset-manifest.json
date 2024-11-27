@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AnandhuU7/admin_dashboard/static/css/main.25a449c9.css",
+    "main.js": "/AnandhuU7/admin_dashboard/static/js/main.ef9da228.js",
+    "static/js/453.1c13788b.chunk.js": "/AnandhuU7/admin_dashboard/static/js/453.1c13788b.chunk.js",
+    "index.html": "/AnandhuU7/admin_dashboard/index.html",
+    "main.25a449c9.css.map": "/AnandhuU7/admin_dashboard/static/css/main.25a449c9.css.map",
+    "main.ef9da228.js.map": "/AnandhuU7/admin_dashboard/static/js/main.ef9da228.js.map",
+    "453.1c13788b.chunk.js.map": "/AnandhuU7/admin_dashboard/static/js/453.1c13788b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25a449c9.css",
+    "static/js/main.ef9da228.js"
+  ]
+}
