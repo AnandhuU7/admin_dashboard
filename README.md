@@ -22,21 +22,20 @@ Before you start, you need to have **Node.js** (which comes with **npm**) instal
    - Visit the official Node.js website: [https://nodejs.org/](https://nodejs.org/)
    - Download the **Current** version (which should be **20.9.0** or higher).
    - Follow the installation instructions:
-     - For **Windows**: Download the `.msi` installer and run it.
+    - For **Windows**: Download the `.msi` installer and run it.
      - For **macOS**: Download the `.pkg` installer and run it.
      - For **Linux** (Ubuntu/Debian-based):
        ```bash
-       curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
-       sudo apt-get install -y nodejs
+        curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+        sudo apt-get install -y nodejs
        ```
 
 2. **Verify Installation**:
    After installation, open a terminal or command prompt and run the following commands to verify the installation:
    
-   ```bash
-   node -v
-   npm -v
-
+        ```bash
+         node -v
+         npm -v
 
 ## Clone the Repository 
     git clone <https://github.com/AnandhuU7/admin_dashboard>
@@ -49,31 +48,6 @@ Before you start, you need to have **Node.js** (which comes with **npm**) instal
     npm start
 
     The app will be available at http://localhost:3000
-
-
-## FolderStructure
-/admin
-│
-├── node_modules/               # Contains all project dependencies
-├── public/                     # Public assets like index.html, icons, etc.
-├── src/                        # Source code for the React app
-│   ├── assets/                 # Static assets like images and icons
-│   ├── components/             # Reusable UI components
-│   │   ├── AddNew.js           # Button component for adding new items
-│   │   ├── CreateUser.js       # Component for creating users
-│   │   ├── DeleteModal.js      # Modal component for deleting items
-│   │   ├── EditModal.js        # Modal component for editing items
-│   │   ├── Header.js           # Header component for navigation
-│   │   ├── SearchButton.js     # Button component for searching
-│   │   └── Sidebar.js          # Sidebar component for navigation
-│   ├── pages/                  # React components for individual pages
-│   │   └── AdminPanelPage.js   # Admin panel main page
-│   ├── styles/                 # Contains styles for components
-│   ├── api.js                  # API calls for backend interaction
-│   ├── App.css                 # Global styles for the app
-│   └── others/                 # Other utility files (if any)
-├── package-lock.json           # Lock file for npm
-└── package.json                # Project metadata and dependencies
 
 
 ## Explanation
@@ -98,13 +72,14 @@ Stores images, icons, and other static files used across the app.
 ## components/: 
 Reusable UI components used throughout the app. Each component is a modular unit of functionality and display. Key components include:
 
-    AddNew.js: A button component for triggering the addition of new entries.
+   AddNew.js: A button component for triggering the addition of new entries.
     CreateUser.js: A form component used for creating new user entries.
     DeleteModal.js: A modal dialog that confirms the deletion of an item.
     EditModal.js: A modal dialog used for editing existing data (e.g., user details).
     Header.js: The header section of the app, typically containing navigation and logos.
     SearchButton.js: A button component to trigger the search functionality.
     Sidebar.js: A sidebar navigation component, typically used for admin panels.
+    
 ## pages/:
  Contains the pages for your application. Each page represents a distinct view or route within the app.
 
