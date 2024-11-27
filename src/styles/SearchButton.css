@@ -1,0 +1,11 @@
+.search-button-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  
+  .search-input {
+    width: 200px;
+    margin-right: 10px;
+  }
+  

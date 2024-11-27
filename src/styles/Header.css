@@ -1,0 +1,56 @@
+/* AppHeader.css */
+.admin-button:hover { 
+  color: white !important; 
+}
+.admin-button::after {
+  content: '';  
+  position: absolute;
+  bottom: 0; 
+  left: 0;
+  width: 0;
+  height: 2px;  
+  background-color: white;  
+  transition: width 0.3s ease-in-out;  
+}
+
+/* On hover, expand the underline */
+.admin-button:hover::after {
+  width: 100%;
+}
+.demo-logo {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.header-row {
+  width: 100%;
+}
+
+.header-col {
+  margin-right: 10px;
+}
+
+.admin-button {
+  color: white;
+  font-weight: bold;
+}
+
+.settings-icon {
+  color: white;
+  font-size: 20px;
+}
+
+.avatar-col {
+  margin-right: 10px;
+}
+
+.settings-dropdown-col {
+  padding-top: 5px;
+}
